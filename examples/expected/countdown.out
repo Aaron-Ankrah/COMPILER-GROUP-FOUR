@@ -1,0 +1,9 @@
+=== MiniLang demo ===
+2^10      = 1024
+sum 1..100 = 5050
+5 is odd
+4 is even
+3 is odd
+2 is even
+1 is odd
+Liftoff!

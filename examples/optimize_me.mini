@@ -1,0 +1,25 @@
+// Full of work the optimizer can remove. Compare:
+//   java -jar minic.jar --ir examples/optimize_me.mini
+//   java -jar minic.jar --ir -O examples/optimize_me.mini
+func unusedHelper(int a) : int {
+    return a * 2;
+}
+
+func main() : void {
+    int a = 4;
+    int b = a * 2 + 3;        // constant folding + propagation -> 11
+    int c = b - b;            // x - x -> 0
+    int unused = 99 + 1;      // dead code
+    int scale = 1;
+    int d = (b + 0) * scale;  // algebraic identities
+    if (2 > 1) {              // branch is always taken
+        print("answer: ", d + c);
+    } else {
+        print("never printed");
+    }
+    int sum = 0;
+    for (int i = 0; i < 5; i = i + 1) {
+        sum = sum + i * 2;    // strength reduction: i * 2 -> i + i
+    }
+    print("sum: ", sum);
+}

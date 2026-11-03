@@ -1,0 +1,20 @@
+func add(int a, int b) : int {
+    return a + b;
+}
+
+func noReturn(int n) : int {
+    if (n > 0) { return 1; }
+}
+
+func main() : void {
+    int x = true;
+    bool b = 5;
+    y = 3;
+    int z = add(1);
+    int w = add(1, true);
+    if (x) { print("bad condition"); }
+    int x = 2;
+    undefinedFn(3);
+    print(5 / 0);
+    return 1;
+}
