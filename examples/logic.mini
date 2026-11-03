@@ -1,0 +1,22 @@
+// Booleans, short-circuit evaluation and comparison operators.
+func loud(int x) : bool {
+    print("  loud(", x, ") was evaluated");
+    return x > 0;
+}
+
+func main() : void {
+    bool t = true;
+    bool f = false;
+    print("t && f = ", t && f);
+    print("t || f = ", t || f);
+    print("!t     = ", !t);
+    print("3 < 4 == true : ", (3 < 4) == true);
+    print("short-circuit &&:");
+    bool r1 = f && loud(1);
+    print("short-circuit ||:");
+    bool r2 = t || loud(2);
+    print("no short-circuit:");
+    bool r3 = t && loud(3);
+    print(r1, " ", r2, " ", r3);
+    print("-7 / 2 = ", -7 / 2, ", -7 % 3 = ", -7 % 3);
+}

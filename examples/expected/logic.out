@@ -1,0 +1,10 @@
+t && f = false
+t || f = true
+!t     = false
+3 < 4 == true : true
+short-circuit &&:
+short-circuit ||:
+no short-circuit:
+  loud(3) was evaluated
+false true true
+-7 / 2 = -3, -7 % 3 = -1

@@ -1,0 +1,16 @@
+fib(0) recursive=0 iterative=0
+fib(1) recursive=1 iterative=1
+fib(2) recursive=1 iterative=1
+fib(3) recursive=2 iterative=2
+fib(4) recursive=3 iterative=3
+fib(5) recursive=5 iterative=5
+fib(6) recursive=8 iterative=8
+fib(7) recursive=13 iterative=13
+fib(8) recursive=21 iterative=21
+fib(9) recursive=34 iterative=34
+fib(10) recursive=55 iterative=55
+fib(11) recursive=89 iterative=89
+fib(12) recursive=144 iterative=144
+fib(13) recursive=233 iterative=233
+fib(14) recursive=377 iterative=377
+fib(15) recursive=610 iterative=610

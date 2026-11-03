@@ -1,0 +1,8 @@
+outer x = 1
+inner x = 2
+innermost x = 3
+inner x again = 2
+outer x again = 1
+loop x = 100
+loop x = 101
+outer x at end = 1

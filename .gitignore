@@ -1,19 +1,12 @@
-# Build output
+# build output
+build/
 target/
+*.class
+*.jar
 
-# IDE files
+# IDE / OS
 .idea/
-*.iml
 .vscode/
-.settings/
-.project
-.classpath
-*.swp
-*~
-
-# OS files
+*.iml
 .DS_Store
 Thumbs.db
-
-# Editor backup files
-*.bak

@@ -1,0 +1,25 @@
+// Euclid's algorithm, recursive and iterative, plus lcm.
+func gcd(int a, int b) : int {
+    if (b == 0) { return a; }
+    return gcd(b, a % b);
+}
+
+func gcdLoop(int a, int b) : int {
+    while (b != 0) {
+        int t = b;
+        b = a % b;
+        a = t;
+    }
+    return a;
+}
+
+func lcm(int a, int b) : int {
+    return a / gcd(a, b) * b;
+}
+
+func main() : void {
+    print("gcd(48, 18)  = ", gcd(48, 18));
+    print("gcdLoop(1071, 462) = ", gcdLoop(1071, 462));
+    print("lcm(4, 6)    = ", lcm(4, 6));
+    print("lcm(21, 6)   = ", lcm(21, 6));
+}

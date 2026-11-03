@@ -1,0 +1,8 @@
+func main() : void {
+    int x = 5
+    int y = 6;
+    print(x + y;
+    if (x > 3 {
+        print("big");
+    }
+}

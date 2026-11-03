@@ -1,0 +1,21 @@
+// Count and list the primes below 60 using trial division.
+func isPrime(int n) : bool {
+    if (n < 2) { return false; }
+    int d = 2;
+    while (d * d <= n) {
+        if (n % d == 0) { return false; }
+        d = d + 1;
+    }
+    return true;
+}
+
+func main() : void {
+    int count = 0;
+    for (int n = 2; n < 60; n = n + 1) {
+        if (isPrime(n)) {
+            print(n);
+            count = count + 1;
+        }
+    }
+    print("total primes: ", count);
+}

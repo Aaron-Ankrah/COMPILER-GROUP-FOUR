@@ -1,0 +1,4 @@
+// The smallest MiniLang program.
+func main() : void {
+    print("Hello, MiniLang!");
+}
