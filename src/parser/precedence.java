@@ -19,3 +19,21 @@ private Ast.Expr expression() {
         }
         return left;
     }
+
+    private Ast.Expr equality() {
+        Ast.Expr left = comparison();
+        while (check(EQ) || check(NE)) {
+            Token op = advance();
+            left = new Ast.Binary(op.lexeme(), left, comparison(), op.line());
+        }
+        return left;
+    }
+
+    private Ast.Expr comparison() {
+        Ast.Expr left = term();
+        while (check(LT) || check(LE) || check(GT) || check(GE)) {
+            Token op = advance();
+            left = new Ast.Binary(op.lexeme(), left, term(), op.line());
+        }
+        return left;
+    }
