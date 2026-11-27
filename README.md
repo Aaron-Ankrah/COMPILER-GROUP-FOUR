@@ -2,6 +2,22 @@
 
 In alignment with principles of academic integrity and transparent development, this project outlines the specific and limited scope of Artificial Intelligence (AI) tools (such as ChatGPT/Claude) utilized during the creation of this compiler.
 
+## Group 4
+
+| No. | Index Number   | Full Name              | Email Address                |
+|-----|----------------|------------------------|------------------------------|
+| 1   | PS/CSC/23/0034 | Seth Akowuah Mensah    | sethakowuahmensah@gmail.com  |
+| 2   | PS/CSC/23/0035 | Opoku Edward Nyamekye  | _(email cut off in image)_   |
+| 3   | PS/CSC/23/0036 | Rashid Mejida          | marybrookman536@gmail.com    |
+| 4   | PS/CSC/23/0037 | Ampah Gideon           | ampahgideon10@gmail.com      |
+| 5   | PS/CSC/23/0038 | Prosper Ahonor         | prosper.ahonor@stu.ucc.edu.gh |
+| 6   | PS/CSC/23/0039 | Aaron Ankrah           | ankrahaaron010@gmail.com     |
+| 7   | PS/CSC/23/0040 | Enoch Okyere           | enochokyere122@gmail.com     |
+| 8   | PS/CSC/23/0041 | Agbobada Dodzi Desmond | dr.addkholy@gmail.com        |
+| 9   | PS/CSC/23/0042 | Vincent Agyarko        | saintwrankz@gmail.com        |
+| 10  | PS/CSC/23/0043 | Joel Anarba Amuni      | anarbajoel@gmail.com         |
+
+
 ### 🧱 Architectural Structure & Templates
 *   **Project Scaffolding:** AI was used to generate the high-level project folder and file architecture.
 *   **Boilerplate Setups:** Standard repository templates and foundational layout skeletons were structured with AI assistance.
