@@ -7,7 +7,7 @@ In alignment with principles of academic integrity and transparent development, 
 | No. | Index Number   | Full Name              | Email Address                |
 |-----|----------------|------------------------|------------------------------|
 | 1   | PS/CSC/23/0034 | Seth Akowuah Mensah    | sethakowuahmensah@gmail.com  |
-| 2   | PS/CSC/23/0035 | Opoku Edward Nyamekye  | _(email cut off in image)_   |
+| 2   | PS/CSC/23/0035 | Opoku Edward Nyamekye  | opokunyamekyeedwardé@gmail.com   |
 | 3   | PS/CSC/23/0036 | Rashid Mejida          | marybrookman536@gmail.com    |
 | 4   | PS/CSC/23/0037 | Ampah Gideon           | ampahgideon10@gmail.com      |
 | 5   | PS/CSC/23/0038 | Prosper Ahonor         | prosper.ahonor@stu.ucc.edu.gh |
